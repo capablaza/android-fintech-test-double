@@ -8,4 +8,12 @@ public class TransferResponse {
         this.code = code;
         this.message = message;
     }
+
+    public int code() {
+        return this.code;
+    }
+
+    public String message() {
+        return this.message;
+    }
 }

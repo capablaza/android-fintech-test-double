@@ -5,7 +5,7 @@ public class TransferClientResponse {
     private String message;
     private Integer code;
 
-    public TransferClientResponse(String message, Integer code) {
+    public TransferClientResponse(Integer code, String message  ) {
         this.message = message;
         this.code = code;
     }
